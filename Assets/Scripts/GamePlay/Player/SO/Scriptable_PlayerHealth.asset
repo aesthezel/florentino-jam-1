@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14ac764bb486264bad1e572c3b55689, type: 3}
+  m_Name: Scriptable_PlayerHealth
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _guid: f61e3050bcdb7a14fb5efdf59d7360cd
+  _saveGuid: 0
+  _value: 100
+  _debugLogEnabled: 0
+  _saved: 0
+  _defaultValue: 0
+  _resetOn: 0
+  _runtimeValue: 0
+  _isClamped: 0
+  _min:
+    UseLocal: 1
+    LocalValue: 0
+    Variable: {fileID: 0}
+  _max:
+    UseLocal: 1
+    LocalValue: 3.4028235e+38
+    Variable: {fileID: 0}
+  minHealth: 0
+  maxHealth: 0

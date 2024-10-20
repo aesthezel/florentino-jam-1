@@ -16,8 +16,6 @@ namespace Gameplay.IA
 			base.Awake();
 
 			StateMachine.Initialize(FollowPlayerState);
-
-			//RaycastInputController.Instance.OnMoveInput += OnMoveInput;
 		}
 
 		[field: SerializeField]

@@ -29,13 +29,7 @@ namespace Gameplay.Controllers
 
 		private void Start()
 		{
-			InputController.Instance.Fire0Pressed += UpdateMoveInput;
-		}
-
-		private void UpdateMoveInput() 
-		{
-			if (Input.GetButtonDown("Fire1"))
-				CastMoveInput();
+			InputController.Instance.Fire0Pressed += CastMoveInput;
 		}
 
 		private void CastMoveInput() 

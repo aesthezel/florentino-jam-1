@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Serialization;
 using VG.IA;
-using VG.IA.StateMachine;
 
 namespace Gameplay.IA
 {

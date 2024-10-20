@@ -12,6 +12,7 @@ namespace VG.IA
 		[SerializeField] LayerMask layerMasks;
 		[SerializeField] string targetTag = "Player";
 		[SerializeField] Collider[] targetsInViewRadius;
+		[SerializeField] float elevationOffset = 1.0f;
 
 		[Header("Current Objetive")]
 		[SerializeField] private GameObject objetive;
@@ -40,16 +41,15 @@ namespace VG.IA
 				if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
 				{
 					dstToTarget = Vector3.Distance(transform.position, target.position);
-
-					ray.origin = transform.position;
+					ray.origin = transform.position + new Vector3(0, elevationOffset, 0);
 					ray.direction = dirToTarget;
 
 					if (Physics.Raycast(ray, out hit, dstToTarget, layerMasks))
 					{
+						Debug.Log(hit.collider.gameObject.tag);
 						if (hit.collider.gameObject.tag == targetTag)
 						{
 							objetive = hit.collider.gameObject;
-
 							return;
 						}
 					}

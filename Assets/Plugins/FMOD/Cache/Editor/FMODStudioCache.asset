@@ -70,7 +70,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638649853979181960
+  lastModified: 638650245009369637
   FileSizes: []
   Exists: 1
 --- !u!114 &-3722265151144916005
@@ -160,7 +160,7 @@ MonoBehaviour:
   - {fileID: -4871237377520453307}
   StringsBanks:
   - {fileID: 7204165523416663841}
-  cacheTime: 638649853979221938
+  cacheTime: 638650245009394748
   cacheVersion: 131620
 --- !u!114 &1728472238276376901
 MonoBehaviour:
@@ -209,13 +209,41 @@ MonoBehaviour:
     Data4: -110223181
   Banks:
   - {fileID: -4871237377520453307}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4028343045142166728}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 102000
+--- !u!114 &4028343045142166728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gameplay/State
+  m_EditorClassIdentifier: 
+  Name: State
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3229270483
+    data2: 2608914506
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Menu
+  - Gameplay
+  - GameOver
+  Exists: 1
 --- !u!114 &4086657177762127337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,15 +413,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Desktop/Master.strings.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
-  Name: Desktop/Master.strings
+  Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638649853979221938
+  lastModified: 638650245009394748
   FileSizes:
   - Name: 
-    Value: 1444
+    Value: 1492
   Exists: 1
 --- !u!114 &8769895261563921535
 MonoBehaviour:

@@ -27,6 +27,75 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8338063744605153775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Health/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 956838138
+    data2: 2928224156
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6744819104171983954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638649857499223496
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6645021876292620538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Characters/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Characters/Footsteps
+  Guid:
+    Data1: 1778137257
+    Data2: 1278631503
+    Data3: -1286696542
+    Data4: 1854928247
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5696584919267854516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,6 +124,61 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5573930935895254783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Interactables/CantSummon
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Interactables/CantSummon
+  Guid:
+    Data1: 980962563
+    Data2: 1249573620
+    Data3: -227233101
+    Data4: 310933061
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5391376745464651313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Characters/Health
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Characters/Health
+  Guid:
+    Data1: 2146277602
+    Data2: 1303648435
+    Data3: -1133367162
+    Data4: -1368705959
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8338063744605153775}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4871237377520453307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,6 +197,60 @@ MonoBehaviour:
   lastModified: 638649853979181960
   FileSizes: []
   Exists: 1
+--- !u!114 &-4853591486795382998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Interactables/SkeletonSummon
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Interactables/SkeletonSummon
+  Guid:
+    Data1: -757710807
+    Data2: 1086583777
+    Data3: 1850674597
+    Data4: -40528664
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4417516584424931744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Characters/Hurt
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Characters/Hurt
+  Guid:
+    Data1: -1946120754
+    Data2: 1192820830
+    Data3: 1066217355
+    Data4: -555437175
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3722265151144916005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +305,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-810226225857401853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Attacks/BulletOnWall
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Attacks/BulletOnWall
+  Guid:
+    Data1: 1753068803
+    Data2: 1210805308
+    Data3: 793225892
+    Data4: 489832066
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-592243118877936130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638649857499238569
+  FileSizes:
+  - Name: 
+    Value: 1444
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,28 +365,82 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 7204165523416663841}
-  - {fileID: -4871237377520453307}
+  - {fileID: -592243118877936130}
+  - {fileID: -6744819104171983954}
   EditorEvents:
-  - {fileID: 1728472238276376901}
-  - {fileID: 5513201012878128430}
-  - {fileID: 4086657177762127337}
-  - {fileID: -8646390046891852769}
-  - {fileID: 4333093923826437732}
-  - {fileID: 2443389917979889993}
-  - {fileID: 6000093142588936591}
-  - {fileID: 5892166038905016393}
-  - {fileID: -2705231064748387374}
-  - {fileID: -5696584919267854516}
-  - {fileID: -3722265151144916005}
-  - {fileID: 8769895261563921535}
+  - {fileID: -5573930935895254783}
+  - {fileID: -810226225857401853}
+  - {fileID: -4853591486795382998}
+  - {fileID: 5193480231207234207}
+  - {fileID: 1480400408067901004}
+  - {fileID: 1046365201560016506}
+  - {fileID: -6645021876292620538}
+  - {fileID: -4417516584424931744}
+  - {fileID: 7497258450894862228}
+  - {fileID: -5391376745464651313}
+  - {fileID: 7009116576143484630}
+  - {fileID: 6449861029852316677}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4871237377520453307}
+  - {fileID: -6744819104171983954}
   StringsBanks:
-  - {fileID: 7204165523416663841}
-  cacheTime: 638649853979221938
+  - {fileID: -592243118877936130}
+  cacheTime: 638649857499238569
   cacheVersion: 131620
+--- !u!114 &1046365201560016506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MX/Gameplay
+  m_EditorClassIdentifier: 
+  Path: event:/MX/Gameplay
+  Guid:
+    Data1: -671313045
+    Data2: 1162403119
+    Data3: 622160793
+    Data4: -110223181
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1480400408067901004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Interactables/PlayerCommand
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Interactables/PlayerCommand
+  Guid:
+    Data1: 1685707876
+    Data2: 1269183259
+    Data3: 1211703453
+    Data4: -1046912803
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1728472238276376901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,6 +573,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5193480231207234207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/BG/Graveyard
+  m_EditorClassIdentifier: 
+  Path: event:/FX/BG/Graveyard
+  Guid:
+    Data1: 1198722136
+    Data2: 1228767255
+    Data3: 1006663600
+    Data4: -845978275
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5513201012878128430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +681,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6449861029852316677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Attacks/HellsingAttack
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Attacks/HellsingAttack
+  Guid:
+    Data1: -793180936
+    Data2: 1124694197
+    Data3: -577927782
+    Data4: -316505250
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7009116576143484630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Attacks/DeclareAttack
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Attacks/DeclareAttack
+  Guid:
+    Data1: 2134065643
+    Data2: 1107862108
+    Data3: -1829372270
+    Data4: -1090135673
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7204165523416663841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,6 +755,33 @@ MonoBehaviour:
   - Name: 
     Value: 1444
   Exists: 1
+--- !u!114 &7497258450894862228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Attacks/MeleeSkeleton
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Attacks/MeleeSkeleton
+  Guid:
+    Data1: 185532114
+    Data2: 1171774128
+    Data3: -813171
+    Data4: 534116703
+  Banks:
+  - {fileID: -6744819104171983954}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8769895261563921535
 MonoBehaviour:
   m_ObjectHideFlags: 0

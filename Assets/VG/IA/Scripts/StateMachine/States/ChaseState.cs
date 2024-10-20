@@ -28,10 +28,20 @@ namespace VG.IA.StateMachine
 
 		public override void FrameUpdate()
 		{
+			Debug.Log("CHASE STATE");
+			
 			base.FrameUpdate();
-
+			
 			if (iA.HaveVisionTarget())
 				iA.ChaseTarget();
+
+			if (iA.HaveAttackTarget())
+			{
+				Debug.Log("Consiguio objetivo");
+				iA.StateMachine.ChangeState(iA.AttackState);
+			}
+
+				
 			else 
 			{
 				iA.MoveToLastSeenPoint();

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4974835161129923794}
   - component: {fileID: 664525893738210893}
   - component: {fileID: 296962238113305312}
-  - component: {fileID: 5004620206027591586}
+  - component: {fileID: 5839730368529617853}
   - component: {fileID: 4496503734455562642}
   m_Layer: 3
   m_Name: AllyIA
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1073741824
   drawGizmos: 1
-  detailedGizmos: 0
+  detailedGizmos: 1
   startEndModifier:
     addPoints: 0
     exactStartPoint: 3
@@ -149,7 +149,7 @@ MonoBehaviour:
   endReachedDistance: 2.5
   whenCloseToDestination: 0
   rvoDensityBehavior:
-    enabled: 1
+    enabled: 0
     densityThreshold: 0.5
     returnAfterBeingPushedAway: 0
     progressAverage: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
   orientation: 0
   enableRotation: 1
   autoRepath:
-    mode: 2
+    mode: 1
     period: 0.5
     sensitivity: 10
     maximumPeriod: 1
@@ -171,7 +171,7 @@ MonoBehaviour:
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   preventMovingBackwards: 0
-  constrainInsideGraph: 0
+  constrainInsideGraph: 1
 --- !u!114 &296962238113305312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   version: 1073741824
   target: {fileID: 0}
   useRotation: 0
---- !u!114 &5004620206027591586
+--- !u!114 &5839730368529617853
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655857821224127474}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 560112f876f5746c780eca0d404e7139, type: 3}
   m_Name: 
@@ -204,7 +204,7 @@ MonoBehaviour:
   heightBackingField: 2
   centerBackingField: 1
   locked: 0
-  lockWhenNotMoving: 0
+  lockWhenNotMoving: 1
   agentTimeHorizon: 2
   obstacleTimeHorizon: 0.5
   maxNeighbours: 10
@@ -231,7 +231,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 1

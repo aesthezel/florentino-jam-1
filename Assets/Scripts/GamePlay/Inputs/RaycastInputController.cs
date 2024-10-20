@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
+using VG.Inputs;
 
 namespace Gameplay.Controllers
 {
-	public class InputController : MonoBehaviour
+	public class RaycastInputController : MonoBehaviour
 	{
-		public static InputController Instance { get; private set; }
+		public static RaycastInputController Instance { get; private set; }
 
 		[Header("Move layer")]
 		[SerializeField] LayerMask moveLayer;
@@ -26,9 +27,9 @@ namespace Gameplay.Controllers
 			mainCamera = Camera.main;
 		}
 
-		private void Update()
+		private void Start()
 		{
-			UpdateMoveInput();
+			InputController.Instance.Fire0Pressed += UpdateMoveInput;
 		}
 
 		private void UpdateMoveInput() 

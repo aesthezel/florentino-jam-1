@@ -12,7 +12,7 @@ namespace Gameplay.Player
 		void Start()
 		{
 			//Register inputs actions
-			InputController.Instance.OnMoveInput += OnMovedInput;
+			RaycastInputController.Instance.OnMoveInput += OnMovedInput;
 
 			//Get References
 			aiPath = GetComponent<AIPath>();

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5004620206027591586}
   - component: {fileID: 4496503734455562642}
   m_Layer: 3
-  m_Name: IA
+  m_Name: AllyIA
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,6 +55,7 @@ MonoBehaviour:
   idleTime: 2
   normalSpeed: 5
   chasingSpeed: 7
+  player: {fileID: 11400000, guid: 34da868a09291984eb6b46f61a914a01, type: 2}
   <Team>k__BackingField: {fileID: 11400000, guid: 4145278b94409924bad1ca329acee5f6, type: 2}
 --- !u!114 &7689441893688713076
 MonoBehaviour:

@@ -1,8 +1,8 @@
 namespace VG.IA.StateMachine
 {
-	public class ExploringPointState : State
+	public class MovingToPosState : State
 	{
-		public ExploringPointState(IA iA, StateMachineController stateMachine) : base(iA, stateMachine)
+		public MovingToPosState(IA iA, StateMachineController stateMachine) : base(iA, stateMachine)
 		{
 
 		}
@@ -10,8 +10,6 @@ namespace VG.IA.StateMachine
 		public override void EnterState()
 		{
 			base.EnterState();
-
-			iA.MoveToLastSeenPoint();
 		}
 
 		public override void ExitState()
@@ -24,10 +22,10 @@ namespace VG.IA.StateMachine
 			base.FrameUpdate();
 
 			if (iA.HaveVisionTarget())
-				iA.StateMachine.ChangeState(iA.ChaseState);
+				iA.StateMachine.ChangeState(iA.AttackState);
 
 			if (iA.ReachedPoint())
-				iA.StateMachine.ChangeState(iA.PatrolPointState);
+				iA.StateMachine.ChangeState(iA.FollowPlayerState);
 		}
 
 		public override void PhysicUpdate()

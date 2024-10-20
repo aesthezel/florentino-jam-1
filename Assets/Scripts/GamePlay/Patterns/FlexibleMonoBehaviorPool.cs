@@ -44,6 +44,7 @@ namespace GamePlay.Patterns
         
         public void ReleaseObject(T obj)
         {
+            if (obj.gameObject.activeInHierarchy)
             pool.Release(obj);
         }
         

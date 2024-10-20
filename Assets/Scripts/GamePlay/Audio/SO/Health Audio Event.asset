@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Reference>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  <Parameter>k__BackingField: 
-  HealthValue: 1000
+      Data1: 2146277602
+      Data2: 1303648435
+      Data3: -1133367162
+      Data4: -1368705959
+    Path: event:/FX/Characters/Health
+  <Parameter>k__BackingField: Health
+  HealthValue: 0
   MaxHealthValue: 1000
+  TestingHealthToSend: -5

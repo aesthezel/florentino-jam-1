@@ -60,7 +60,6 @@ namespace VG.IA
 
 		public override void MoveToLastSeenPoint()
 		{
-			Debug.Log("Move to last seen point");
 			aiPath.destination = lastTargetSeenPos;
 		}
 

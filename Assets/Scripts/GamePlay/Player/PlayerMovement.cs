@@ -6,8 +6,7 @@ using VG.Inputs;
 namespace Gameplay.Player
 {
 	public class PlayerMovement : MonoBehaviour
-	{
-		
+	{		
 		[Header("Speed settings")]
 		[SerializeField] private float playerSpeed = 5.0f;
 		[SerializeField] private float gravityValue = -9.81f;

@@ -1,4 +1,5 @@
 ﻿using FMODUnity;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace GamePlay.Audio
@@ -11,11 +12,21 @@ namespace GamePlay.Audio
         public float HealthValue = 1000;
         public float MaxHealthValue = 1000;
 
+        public float TestingHealthToSend = 10;
+
+        [Button("Test Health")]
+        public void TestHealth()
+        {
+            ChangeHealth(TestingHealthToSend);
+        }
+        
         public void ChangeHealth(float value)
         {
-            //var health = HealthValue / MaxHealthValue;
-            var bpmHealth = Mathf.Lerp(0, MaxHealthValue, HealthValue);
-            Play(bpmHealth);
+            HealthValue += value;
+            
+            var healthPercent = HealthValue / MaxHealthValue;
+            var healthSoundValue = Mathf.Clamp(healthPercent, 0, 1);
+            Play(healthSoundValue);
         }
 
         private void Play(float currentHealth)

@@ -34,6 +34,8 @@ namespace VG.IA
 		public ExploringPointState ExploringPointState { get; set; }
 		public PatrolPointState PatrolPointState { get; set; }
 		public AttackState AttackState { get; set; }
+		public MovingToPosState MovingToPosState { get; set; }
+		public FollowPlayerState FollowPlayerState { get; set; }
 
 		protected Vector3 lastTargetSeenPos;
 		protected float targetDistance;
@@ -53,6 +55,8 @@ namespace VG.IA
 			ExploringPointState = new ExploringPointState(this, StateMachine);
 			PatrolPointState = new PatrolPointState(this, StateMachine);
 			AttackState = new AttackState(this, StateMachine);
+			MovingToPosState = new MovingToPosState(this, StateMachine);
+			FollowPlayerState = new FollowPlayerState(this, StateMachine);
 
 			StateMachine.Initialize(IdleState);
 		}

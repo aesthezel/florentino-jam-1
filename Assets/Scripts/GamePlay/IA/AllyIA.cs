@@ -2,14 +2,16 @@ using Gameplay.Controllers;
 using System;
 using GamePlay.Player.SO;
 using GamePlay.Teams;
+using GamePlay.World;
 using UnityEngine;
 using VG.IA;
 
 namespace Gameplay.IA
 {
-	public class AllyIA : AstarIA, ITeam
+	public class AllyIA : AstarIA, ITeam, IDamageable
 	{
 		public PlayerIdentityVariable player;
+		private float _health;
 
 		public override void Awake()
 		{
@@ -42,6 +44,15 @@ namespace Gameplay.IA
 		public void MoveToPlayer() 
 		{
 			destinationSetter.target = player.Value.transform;
+		}
+
+		public void Damage(float value)
+		{
+			_health -= value;
+			if (_health <= 0)
+			{
+				Destroy(gameObject);
+			}
 		}
 	}
 }

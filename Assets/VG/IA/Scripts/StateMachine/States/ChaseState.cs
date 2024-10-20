@@ -28,9 +28,9 @@ namespace VG.IA.StateMachine
 
 		public override void FrameUpdate()
 		{
-			base.FrameUpdate();
-
 			Debug.Log("CHASE STATE");
+			
+			base.FrameUpdate();
 			
 			if (iA.HaveVisionTarget())
 				iA.ChaseTarget();

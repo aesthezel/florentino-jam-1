@@ -1,6 +1,6 @@
-﻿using Gameplay.IA.Interactions;
-using GamePlay.Player.SO;
+﻿using GamePlay.Player.SO;
 using GamePlay.Teams;
+using GamePlay.Weapons;
 using UnityEngine;
 using VG.IA;
 

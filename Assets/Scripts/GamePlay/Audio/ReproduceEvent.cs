@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using FMOD.Studio;
 using FMODUnity;
-using UnityEngine;
 using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 namespace GamePlay.Audio
@@ -10,6 +9,20 @@ namespace GamePlay.Audio
     {
         private static readonly Dictionary<EventReference, EventInstance> EventsInstantiated = new();
 
+        public static void Play(EventReference reference)
+        {
+            if (EventsInstantiated.TryGetValue(reference, out var instance))
+            {
+                instance.start();
+            }
+            else
+            {
+                var instancedReference = RuntimeManager.CreateInstance(reference.Guid);
+                EventsInstantiated.Add(reference, instancedReference);
+                instancedReference.start();
+            }
+        }
+        
         public static void Play(EventReference reference, string parameter, int value)
         {
             if (EventsInstantiated.TryGetValue(reference, out var instance)) // SI YA EXISTE

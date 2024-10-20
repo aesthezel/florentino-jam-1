@@ -1,3 +1,5 @@
+using Gameplay.IA;
+
 namespace VG.IA.StateMachine
 {
 	public class MovingToPosState : State
@@ -21,8 +23,8 @@ namespace VG.IA.StateMachine
 		{
 			base.FrameUpdate();
 
-			if (iA.HaveVisionTarget())
-				iA.StateMachine.ChangeState(iA.AttackState);
+			//if (iA.HaveVisionTarget())
+			//	iA.StateMachine.ChangeState(iA.AttackState);
 
 			if (iA.ReachedPoint())
 				iA.StateMachine.ChangeState(iA.FollowPlayerState);

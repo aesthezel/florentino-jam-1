@@ -36,11 +36,6 @@ namespace Gameplay.IA
 			base.MoveToPoint(point);
 		}
 
-		private void OnMoveInput(Vector3 vector)
-		{
-			aiPath.destination = vector;
-		}
-
 		public void MoveToPlayer() 
 		{
 			destinationSetter.target = player.Value.transform;

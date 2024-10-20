@@ -46,7 +46,10 @@ namespace Gameplay.Controllers
 
 			if (Physics.Raycast(ray, out hit, 100, moveLayer))
 			{
-				OnMoveInput?.Invoke(hit.point);
+				if (hit.collider.gameObject.tag == "Interactable")
+					return;
+
+                OnMoveInput?.Invoke(hit.point);
 				_movePointerParticlePool.GetObject(hit.point);
 			}
 		}

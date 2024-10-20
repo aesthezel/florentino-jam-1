@@ -2,13 +2,12 @@
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
 [LOG] SystemI::init                            : Initialize version=20224 (146338), maxchannels=256, flags=0x00020000
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=44100, nAvgBytesPerSec=352800, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
 [LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
-[LOG] OutputWASAPI::init                       : Output buffer size: 3760 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
-[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002E136299288 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000236A8E0B978 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,115 +16,8 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1945920
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 31168
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F9BD22F0D8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF18BE3CE0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF18BE3CA0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF18BE3DC0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF18BE3E80
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002DFFBB59098
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FX_BulletOnWallt_FJ1-006', format=5, channels=2, frequency=44100, lengthbytes=6624, lengthpcm=16537, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.499530.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1945920
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 31168
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F9BD22F0D8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF18BE3CE0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF18BE3CA0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF18BE3DC0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF18BE3E80
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002DFFBB59098
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FX_BulletOnWallt_FJ1-005', format=5, channels=2, frequency=44100, lengthbytes=6592, lengthpcm=16537, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.486962.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1945920
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 31168
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F9BD22F0D8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF18BE3CE0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF18BE3CA0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF18BE3DC0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF18BE3E80
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002DFFBB59098
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FX_BulletOnWallt_FJ1-001', format=5, channels=2, frequency=44100, lengthbytes=7360, lengthpcm=16537, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.494650.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1945920
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 31168
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F9BD22F0D8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF18BE3CE0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF18BE3CA0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF18BE3DC0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF18BE3E80
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002DFFBB59098
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FX_BulletOnWallt_FJ1-003', format=5, channels=2, frequency=44100, lengthbytes=6560, lengthpcm=16537, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.498660.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1945920
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 31168
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F9BD22F0D8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF18BE3CE0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF18BE3CA0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF18BE3DC0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF18BE3E80
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002DFFBB59098
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FX_BulletOnWallt_FJ1-002', format=5, channels=2, frequency=44100, lengthbytes=6816, lengthpcm=16537, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.501187.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1945920
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 31168
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F9BD22F0D8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF18BE3CE0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF18BE3CA0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF18BE3DC0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF18BE3E80
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002DFFBB59098
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='FX_BulletOnWallt_FJ1-004', format=5, channels=2, frequency=44100, lengthbytes=8128, lengthpcm=16537, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.492158.
-[LOG] SoundI::release                          :  (000002E06BAD6CE8)
-[LOG] SoundI::release                          :     FX_BulletOnWallt_FJ1-001 (000002E140C366E8)
-[LOG] SoundI::release                          :  (000002E06BAD79D8)
-[LOG] SoundI::release                          :     FX_BulletOnWallt_FJ1-002 (000002E1951C3E68)
-[LOG] SoundI::release                          :  (000002E06BAD7138)
-[LOG] SoundI::release                          :     FX_BulletOnWallt_FJ1-003 (000002E1951C22C8)
-[LOG] SoundI::release                          :  (000002E06BAD6E58)
-[LOG] SoundI::release                          :     FX_BulletOnWallt_FJ1-004 (000002E1951C3B28)
-[LOG] SoundI::release                          :  (000002E06BAD6FC8)
-[LOG] SoundI::release                          :     FX_BulletOnWallt_FJ1-005 (000002E140C36208)
-[LOG] SoundI::release                          :  (000002E06BAD76F8)
-[LOG] SoundI::release                          :     FX_BulletOnWallt_FJ1-006 (000002E140C37588)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 

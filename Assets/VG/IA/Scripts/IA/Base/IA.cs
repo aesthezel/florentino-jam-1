@@ -33,6 +33,7 @@ namespace VG.IA
 		public ChaseState ChaseState { get; set; }
 		public ExploringPointState ExploringPointState { get; set; }
 		public PatrolPointState PatrolPointState { get; set; }
+		public AttackState AttackState { get; set; }
 
 		protected Vector3 lastTargetSeenPos;
 		protected float targetDistance;
@@ -51,6 +52,7 @@ namespace VG.IA
 			ChaseState = new ChaseState(this, StateMachine);
 			ExploringPointState = new ExploringPointState(this, StateMachine);
 			PatrolPointState = new PatrolPointState(this, StateMachine);
+			AttackState = new AttackState(this, StateMachine);
 
 			StateMachine.Initialize(IdleState);
 		}
@@ -146,5 +148,7 @@ namespace VG.IA
 
 			return false;
 		}
+
+		public virtual bool HaveAttackTarget() => false;
 	}
 }

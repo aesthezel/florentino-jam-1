@@ -11,7 +11,7 @@ namespace VG.IA
 		[Range(0, 360)][SerializeField] float viewAngle = 90f;
 		[SerializeField] LayerMask layerMasks;
 		[SerializeField] string targetTag = "Player";
-		Collider[] targetsInViewRadius;
+		[SerializeField] Collider[] targetsInViewRadius;
 
 		[Header("Current Objetive")]
 		[SerializeField] private GameObject objetive;

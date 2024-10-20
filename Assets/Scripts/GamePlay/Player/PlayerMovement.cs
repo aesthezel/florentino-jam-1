@@ -1,26 +1,62 @@
 using Gameplay.Controllers;
 using Pathfinding;
 using UnityEngine;
+using VG.Inputs;
 
 namespace Gameplay.Player
 {
 	public class PlayerMovement : MonoBehaviour
 	{
-		private AIPath aiPath;
+		
+		[Header("Speed settings")]
+		[SerializeField] private float playerSpeed = 5.0f;
+		[SerializeField] private float gravityValue = -9.81f;
+
+		private Vector3 playerVelocity;
+		private bool groundedPlayer;
+		
+		private CharacterController characterController;
+
+		//Cache
+		Vector2 moveInput;
+		Vector3 move;
 
 		// Start is called once before the first execution of Update after the MonoBehaviour is created
 		void Start()
 		{
-			//Register inputs actions
-			InputController.Instance.OnMoveInput += OnMovedInput;
-
 			//Get References
-			aiPath = GetComponent<AIPath>();
+			characterController = GetComponent<CharacterController>();
 		}
 
-		private void OnMovedInput(Vector3 pos)
+		void Update()
 		{
-			aiPath.destination = pos;
+			moveInput = InputController.Instance.MoveInput;
+
+			UpdateMovement();
+		}
+
+		private void UpdateMovement() 
+		{
+			move = new Vector3(moveInput.x, 0, moveInput.y);
+
+			groundedPlayer = characterController.isGrounded;
+
+			if (groundedPlayer && playerVelocity.y < 0)
+			{
+				playerVelocity.y = 0f;
+			}
+
+			characterController.Move(move * Time.deltaTime * playerSpeed);
+
+			// Cambiar la dirección del jugador hacia el movimiento
+			if (move != Vector3.zero)
+			{
+				gameObject.transform.forward = move;
+			}
+
+			// Aplicar gravedad
+			playerVelocity.y += gravityValue * Time.deltaTime;
+			characterController.Move(playerVelocity * Time.deltaTime);
 		}
 	}
 }

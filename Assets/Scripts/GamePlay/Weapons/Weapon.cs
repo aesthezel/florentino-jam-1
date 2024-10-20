@@ -1,4 +1,5 @@
-﻿using GamePlay.Patterns;
+﻿using GamePlay.Audio;
+using GamePlay.Patterns;
 using GamePlay.VFX;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -11,9 +12,10 @@ namespace GamePlay.Weapons
         [Title("Prefabs")]
         [SerializeField] private Bullet bulletPrefab;
         [SerializeField] private BulletParticle bulletParticlePrefab;
-        
+        [Title("Weapon Settings")]
         [SerializeField] private float fireRate;
         [SerializeField] private Transform firePoint;
+        [Title("SFX")] [SerializeField] private BulletHitEventScriptable bulletHitEvent;
         private float lastShoot;
 
         private FlexibleMonoBehaviorPool<Bullet> bulletPool;
@@ -37,6 +39,7 @@ namespace GamePlay.Weapons
         private void ShowParticle(Vector3 position)
         {
             Debug.Log("Ejecutando particulas");
+            bulletHitEvent.Play();
             bulletParticlePool.GetObject(position);
         }
     }

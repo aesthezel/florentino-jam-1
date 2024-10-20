@@ -1,4 +1,6 @@
 using System;
+using GamePlay.Patterns;
+using GamePlay.VFX;
 using UnityEngine;
 using VG.Inputs;
 
@@ -11,6 +13,11 @@ namespace Gameplay.Controllers
 		[Header("Move layer")]
 		[SerializeField] LayerMask moveLayer;
 
+		[SerializeField]
+		private MovePointerParticle movePointerParticlePrefab;
+		
+		private FlexibleMonoBehaviorPool<MovePointerParticle> _movePointerParticlePool;
+		
 		public Action<Vector3> OnMoveInput;
 
 		//Cache
@@ -30,14 +37,18 @@ namespace Gameplay.Controllers
 		private void Start()
 		{
 			InputController.Instance.Fire0Pressed += CastMoveInput;
+			_movePointerParticlePool = new FlexibleMonoBehaviorPool<MovePointerParticle>(movePointerParticlePrefab, 1, 100);
 		}
 
 		private void CastMoveInput() 
 		{
 			ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out hit, 100, moveLayer))
+			if (Physics.Raycast(ray, out hit, 100, moveLayer))
+			{
 				OnMoveInput?.Invoke(hit.point);
+				_movePointerParticlePool.GetObject(hit.point);
+			}
 		}
 	}
 }

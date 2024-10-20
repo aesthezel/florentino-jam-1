@@ -40,8 +40,6 @@ namespace VG.IA.StateMachine
 				Debug.Log("Consiguio objetivo");
 				iA.StateMachine.ChangeState(iA.AttackState);
 			}
-
-				
 			else 
 			{
 				iA.MoveToLastSeenPoint();

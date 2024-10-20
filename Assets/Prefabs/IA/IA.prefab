@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 664525893738210893}
   - component: {fileID: 296962238113305312}
   - component: {fileID: 5004620206027591586}
-  m_Layer: 0
+  - component: {fileID: 4496503734455562642}
+  m_Layer: 3
   m_Name: IA
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,6 +55,7 @@ MonoBehaviour:
   idleTime: 2
   normalSpeed: 5
   chasingSpeed: 7
+  <Team>k__BackingField: {fileID: 11400000, guid: 4145278b94409924bad1ca329acee5f6, type: 2}
 --- !u!114 &7689441893688713076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,8 +72,11 @@ MonoBehaviour:
   viewAngle: 90
   layerMasks:
     serializedVersion: 2
-    m_Bits: 0
-  targetTag: Player
+    m_Bits: 8
+  targetsTeam:
+  - {fileID: 11400000, guid: 18f093f722ca5e144bc118e358c08ab2, type: 2}
+  targetsInViewRadius: []
+  elevationOffset: 1
   objetive: {fileID: 0}
   targetCatchDistance: 0
 --- !u!114 &7104720693776916517
@@ -140,7 +145,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  endReachedDistance: 1
+  endReachedDistance: 2.5
   whenCloseToDestination: 0
   rvoDensityBehavior:
     enabled: 1
@@ -208,6 +213,29 @@ MonoBehaviour:
   wallAvoidFalloff: 1
   priority: 0.5
   debug: 0
+--- !u!136 &4496503734455562642
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655857821224127474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &3191868624016173345
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +247,7 @@ GameObject:
   - component: {fileID: 7694333080391968910}
   - component: {fileID: 7685945847673348243}
   - component: {fileID: 1873282548009320356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}

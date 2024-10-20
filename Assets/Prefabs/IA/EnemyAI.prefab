@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 528443231861375533}
   - component: {fileID: 728121904649671844}
   - component: {fileID: 2011127641008771925}
+  - component: {fileID: 8400364991242741663}
+  - component: {fileID: 515631936218444427}
   m_Layer: 0
   m_Name: EnemyAI
   m_TagString: Untagged
@@ -37,6 +39,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1130455809762153353}
+  - {fileID: 1593191814496091681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &858079987443322868
@@ -51,9 +54,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e34a9f578b49319fba0d1be57bf82b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleTime: 0
-  normalSpeed: 0
-  chasingSpeed: 0
+  idleTime: 5
+  normalSpeed: 5
+  chasingSpeed: 7
+  player: {fileID: 11400000, guid: 34da868a09291984eb6b46f61a914a01, type: 2}
+  attackVision: {fileID: 8400364991242741663}
+  enemyWeapon: {fileID: 515631936218444427}
+  attackSpeed: 3
 --- !u!114 &6898702794363837611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,11 +74,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewRadius: 10
-  viewAngle: 90
+  viewAngle: 360
   layerMasks:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   targetTag: Player
+  targetsInViewRadius: []
+  elevationOffset: 1
   objetive: {fileID: 0}
   targetCatchDistance: 0
 --- !u!114 &3617491260238467455
@@ -86,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce4d1f8f9875f244859ce95220e851b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hearRadius: 10
+  hearRadius: 1
   layerMasks:
     serializedVersion: 2
     m_Bits: 0
@@ -140,7 +149,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  endReachedDistance: 1
+  endReachedDistance: 10
   whenCloseToDestination: 0
   rvoDensityBehavior:
     enabled: 1
@@ -208,6 +217,74 @@ MonoBehaviour:
   wallAvoidFalloff: 1
   priority: 0.5
   debug: 0
+--- !u!114 &8400364991242741663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423580853020395682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f21fc696b9a8364f8da4b8b95f4043e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 10
+  viewAngle: 360
+  layerMasks:
+    serializedVersion: 2
+    m_Bits: 8
+  targetTag: Player
+  targetsInViewRadius: []
+  elevationOffset: 1
+  objetive: {fileID: 0}
+  targetCatchDistance: 0
+--- !u!114 &515631936218444427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423580853020395682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e4a4d73eb64473cad183a2ceb00380e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 7956375542758255202, guid: fc61005c4287af749a9f1035654b2145, type: 3}
+  fireRate: 5
+  firePoint: {fileID: 1593191814496091681}
+--- !u!1 &5574894845499530552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593191814496091681}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593191814496091681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5574894845499530552}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0.666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5114444125484167287}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8967408514442719126
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +349,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 50e14bf3d76836545b03673b8dd2c5b1, type: 2}
+  - {fileID: 2100000, guid: 74a4a6e095f1cf742a828825b1b64ccf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

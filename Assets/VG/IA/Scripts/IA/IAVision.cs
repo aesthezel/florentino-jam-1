@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using GamePlay.Teams;
 using UnityEngine;
 
 namespace VG.IA
@@ -10,7 +11,7 @@ namespace VG.IA
 		[SerializeField] float viewRadius = 10f;
 		[Range(0, 360)][SerializeField] float viewAngle = 90f;
 		[SerializeField] LayerMask layerMasks;
-		[SerializeField] string targetTag = "Player";
+		[SerializeField] List<ScriptableEnumTeam> targetsTeam = new();
 		[SerializeField] Collider[] targetsInViewRadius;
 		[SerializeField] float elevationOffset = 1.0f;
 
@@ -46,12 +47,20 @@ namespace VG.IA
 
 					if (Physics.Raycast(ray, out hit, dstToTarget, layerMasks))
 					{
-						Debug.Log(hit.collider.gameObject.tag);
-						if (hit.collider.gameObject.tag == targetTag)
+						if(hit.collider.TryGetComponent<ITeam>(out var element))
 						{
-							objetive = hit.collider.gameObject;
-							return;
+							if (targetsTeam.Exists(foundTeam => foundTeam.Name == element.Team.Name))
+							{
+								objetive = hit.collider.gameObject;
+								return;
+							}
 						}
+						
+						// if (hit.collider.gameObject.tag == targetTag)
+						// {
+						// 	objetive = hit.collider.gameObject;
+						// 	return;
+						// }
 					}
 				}
 			}

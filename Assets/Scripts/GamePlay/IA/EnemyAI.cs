@@ -1,16 +1,18 @@
-﻿using System;
+﻿using Gameplay.IA.Interactions;
 using GamePlay.Player.SO;
+using GamePlay.Teams;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.Serialization;
 using VG.IA;
 
 namespace Gameplay.IA
 {
-    public class EnemyAI : AstarIA
+    public class EnemyAI : AstarIA, ITeam
     {
+        [field: SerializeField]
+        public ScriptableEnumTeam Team { get; private set; }
         public PlayerIdentityVariable player;
         public IAVision attackVision;
+        public Weapon enemyWeapon;
         public float attackSpeed = 3;
 
         private void OnEnable()
@@ -37,7 +39,6 @@ namespace Gameplay.IA
 
         public override bool HaveAttackTarget()
         {
-            Debug.Log("Preguntando aqui");
             return attackVision.Objetive;
         }
 
@@ -45,6 +46,16 @@ namespace Gameplay.IA
         {
             base.Update();
             attackVision.UpdateVision();
+        }
+
+        public void TryShoot()
+        {
+            enemyWeapon.Shoot();
+        }
+
+        public void RotateToTarget(Transform target)
+        {
+            transform.LookAt(target.position);
         }
     }
 }

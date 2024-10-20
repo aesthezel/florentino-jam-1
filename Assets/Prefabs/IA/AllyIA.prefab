@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 296962238113305312}
   - component: {fileID: 5004620206027591586}
   m_Layer: 0
-  m_Name: IA
+  m_Name: AllyIA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

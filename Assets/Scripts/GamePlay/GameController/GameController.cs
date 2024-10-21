@@ -1,20 +1,23 @@
 using System;
+using GamePlay.Audio;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private float incrementEnemyTime = 10;
 
+    [SerializeField] private GameplayAudioEventScriptable gameSoundState;
+    
     public static bool GameRunning;
     public static Action OnStartedGame;
     public static Action OnFinishedGame;
-
     public static Action OnIncrementEnemy;
 
     private float gameTime;
 
     void Start()
     {
+	    gameSoundState.Play(GameplaySoundStates.Menu);
         Debug.Log(gameObject.name);
     }
 

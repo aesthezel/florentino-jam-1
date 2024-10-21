@@ -20,5 +20,5 @@ MonoBehaviour:
       Data4: -1368705959
     Path: event:/FX/Characters/Health
   <Parameter>k__BackingField: Health
-  CurrentHealth: {fileID: 11400000, guid: f61e3050bcdb7a14fb5efdf59d7360cd, type: 2}
+  CurrentHealth: {fileID: 11400000, guid: c4d86f85ba038ba48ba2341efa8217ed, type: 2}
   TestingHealthToSend: -5

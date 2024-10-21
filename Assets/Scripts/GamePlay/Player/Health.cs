@@ -1,23 +1,26 @@
 using Obvious.Soap;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Health", menuName = "Scriptable Objects/Health")]
-public class Health : FloatVariable
+namespace GamePlay.Player
 {
-    [SerializeField] float minHealth, maxHealth;
-
-    public float MaxHealth => maxHealth;
-
-    public void SetHealth(float min, float max) 
+    [CreateAssetMenu(fileName = "Health", menuName = "Scriptable Objects/Health")]
+    public class Health : FloatVariable
     {
-		minHealth = min;
-        maxHealth = max;
+        [SerializeField] float minHealth, maxHealth;
 
-        Value = max;
-	}
+        public float MaxHealth => maxHealth;
 
-    public void ChangeHealth(float value)
-    {
-        Value = Mathf.Clamp(Value + value, minHealth, maxHealth);
+        public void SetHealth(float min, float max) 
+        {
+            minHealth = min;
+            maxHealth = max;
+
+            Value = max;
+        }
+
+        public void ChangeHealth(float value)
+        {
+            Value = Mathf.Clamp(Value + value, minHealth, maxHealth);
+        }
     }
 }

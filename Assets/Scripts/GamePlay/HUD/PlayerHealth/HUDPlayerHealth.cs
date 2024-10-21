@@ -1,3 +1,4 @@
+using GamePlay.Player;
 using UnityEngine;
 using UnityEngine.UI;
 

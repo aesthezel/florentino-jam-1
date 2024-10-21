@@ -1,4 +1,5 @@
-﻿using GamePlay.Player.SO;
+﻿using GamePlay.Player;
+using GamePlay.Player.SO;
 using GamePlay.Teams;
 using GamePlay.Weapons;
 using GamePlay.World;
@@ -47,7 +48,6 @@ namespace Gameplay.IA
 		{
 			base.Start();
 			destinationSetter.target = player.Value.transform;
-
 		}
 
 		public override bool HaveAttackTarget()

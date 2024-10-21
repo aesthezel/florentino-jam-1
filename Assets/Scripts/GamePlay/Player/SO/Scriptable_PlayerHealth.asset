@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: 
   _guid: c4d86f85ba038ba48ba2341efa8217ed
   _saveGuid: 0
-  _value: 0
+  _value: 100
   _debugLogEnabled: 0
   _saved: 0
   _defaultValue: 0
@@ -32,4 +32,4 @@ MonoBehaviour:
     LocalValue: 3.4028235e+38
     Variable: {fileID: 0}
   minHealth: 0
-  maxHealth: 0
+  maxHealth: 100

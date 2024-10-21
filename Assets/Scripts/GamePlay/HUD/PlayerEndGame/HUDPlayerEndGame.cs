@@ -22,6 +22,8 @@ namespace Gameplay.HUD
 
 			restartBtn.onClick.AddListener(delegate { RestartGame(); });
 			exitBtn.onClick.AddListener(delegate { Application.Quit(); });
+
+			GameController.OnFinishedGame += ShowViews;
 		}
 
 		public void UpdatePoints(float value)

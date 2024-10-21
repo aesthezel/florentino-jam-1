@@ -20,7 +20,7 @@
     "_tempCollidersAction": 1,
     "_paletteManager": {
         "_selectedPaletteIdx": 0,
-        "_selectedBrushIdx": -1,
+        "_selectedBrushIdx": 5,
         "_showBrushName": false,
         "_viewList": false,
         "_showTabsInMultipleRows": false,
@@ -464,7 +464,8 @@
                     "EditorOnly",
                     "MainCamera",
                     "Player",
-                    "GameController"
+                    "GameController",
+                    "Interactable"
                 ],
                 "_slopeFilter": {
                     "_v1": 0.0,
@@ -607,7 +608,7 @@
                 "z": 0.0
             },
             "_spacingType": 0,
-            "_minSpacing": 0.17421600222587586,
+            "_minSpacing": 0.6299999952316284,
             "_randomizePositions": true,
             "_randomness": 1.0,
             "_paintOnSurfaceToolSettings": {
@@ -932,7 +933,7 @@
                 "z": 0.0
             },
             "_spacingType": 0,
-            "_minSpacing": 5.338229179382324,
+            "_minSpacing": 2.0,
             "_randomizePositions": true,
             "_randomness": 1.0,
             "_simData": {
@@ -15366,6 +15367,439 @@
                         "_state": 3,
                         "_initialBrushId": 638650317004685496,
                         "_closed": false
+                    },
+                    {
+                        "_id": 638650592113763523,
+                        "_poses": [
+                            {
+                                "_position": {
+                                    "x": -28.061574935913087,
+                                    "y": 0.0,
+                                    "z": -19.101125717163087
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9449065327644348,
+                                    "z": 0.0,
+                                    "w": -0.32734036445617678
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -26.20676040649414,
+                                    "y": 0.0,
+                                    "z": -20.129901885986329
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9650331139564514,
+                                    "z": 0.0,
+                                    "w": -0.26212820410728457
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -23.886756896972658,
+                                    "y": 0.0,
+                                    "z": -20.873647689819337
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9994861483573914,
+                                    "z": 0.0,
+                                    "w": 0.03205567225813866
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -21.808034896850587,
+                                    "y": 0.0,
+                                    "z": -20.634437561035158
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9966088533401489,
+                                    "z": 0.0,
+                                    "w": 0.08228463679552078
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -19.848163604736329,
+                                    "y": 0.0,
+                                    "z": -20.32428550720215
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9972203969955444,
+                                    "z": 0.0,
+                                    "w": 0.0745081678032875
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -17.901742935180665,
+                                    "y": 0.0,
+                                    "z": -20.067550659179689
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9984002113342285,
+                                    "z": 0.0,
+                                    "w": 0.056542783975601199
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -15.957000732421875,
+                                    "y": 0.0,
+                                    "z": -19.67711639404297
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9991022944450378,
+                                    "z": 0.0,
+                                    "w": 0.04236230254173279
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -14.056041717529297,
+                                    "y": 0.0,
+                                    "z": -19.628372192382814
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9998599886894226,
+                                    "z": 0.0,
+                                    "w": -0.016737906262278558
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -12.275954246520996,
+                                    "y": 0.0,
+                                    "z": -19.87843132019043
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9923295974731445,
+                                    "z": 0.0,
+                                    "w": -0.12362063676118851
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -10.631205558776856,
+                                    "y": 0.0,
+                                    "z": -20.66415023803711
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.977342426776886,
+                                    "z": 0.0,
+                                    "w": -0.2116643637418747
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            },
+                            {
+                                "_position": {
+                                    "x": -8.815860748291016,
+                                    "y": 0.0,
+                                    "z": -21.352581024169923
+                                },
+                                "_localRotation": {
+                                    "x": 0.0,
+                                    "y": 0.9688010215759277,
+                                    "z": 0.0,
+                                    "w": -0.24783985316753388
+                                },
+                                "_localScale": {
+                                    "x": 2.0,
+                                    "y": 2.0,
+                                    "z": 2.0
+                                }
+                            }
+                        ],
+                        "_objectIds": [
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-8758389681843709318-2145563979"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-5483183008971257133-1249847962"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-3291478120863230624-876358113"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-8758389681843709318-1394008154"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-3291478120863230624-309620237"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-3291478120863230624-1758381275"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-5483183008971257133-828614516"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-5483183008971257133-1682303292"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-5483183008971257133-1433465241"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-8758389681843709318-416413301"
+                            },
+                            {
+                                "_globalObjId": "GlobalObjectId_V1-2-5706073a00d37dc409894d9967af620a-5483183008971257133-1258687550"
+                            }
+                        ],
+                        "_controlPoints": [
+                            {
+                                "position": {
+                                    "x": -28.22867774963379,
+                                    "y": 0.0,
+                                    "z": -17.696853637695314
+                                },
+                                "type": 1,
+                                "scale": 0.25
+                            },
+                            {
+                                "position": {
+                                    "x": -25.039764404296876,
+                                    "y": 1.1583333048292843e-7,
+                                    "z": -19.922632217407228
+                                },
+                                "type": 1,
+                                "scale": 0.25
+                            },
+                            {
+                                "position": {
+                                    "x": -21.794145584106447,
+                                    "y": 2.444005815505079e-7,
+                                    "z": -19.61226463317871
+                                },
+                                "type": 1,
+                                "scale": 0.25
+                            },
+                            {
+                                "position": {
+                                    "x": -17.969589233398439,
+                                    "y": 4.76837158203125e-7,
+                                    "z": -19.04171371459961
+                                },
+                                "type": 1,
+                                "scale": 0.25
+                            },
+                            {
+                                "position": {
+                                    "x": -12.119963645935059,
+                                    "y": 7.272092261700891e-7,
+                                    "z": -18.889202117919923
+                                },
+                                "type": 1,
+                                "scale": 0.25
+                            },
+                            {
+                                "position": {
+                                    "x": -5.8301591873168949,
+                                    "y": 9.5367431640625e-7,
+                                    "z": -22.071056365966798
+                                },
+                                "type": 1,
+                                "scale": 0.25
+                            }
+                        ],
+                        "_settings": {
+                            "_paintOnMeshesWithoutCollider": false,
+                            "_paintOnSelectedOnly": false,
+                            "_paintOnPalettePrefabs": false,
+                            "_mode": 0,
+                            "_paralellToTheSurface": true,
+                            "_projectionDirection": {
+                                "x": 0.0,
+                                "y": -1.0,
+                                "z": 0.0
+                            },
+                            "_objectsOrientedAlongTheLine": true,
+                            "_axisOrientedAlongTheLine": 0,
+                            "_spacingType": 0,
+                            "_gapSize": 0.0,
+                            "_spacing": 10.0,
+                            "_paintTool": {
+                                "_parentGlobalId": "",
+                                "_autoCreateParent": true,
+                                "_setSurfaceAsParent": false,
+                                "_createSubparentPerPalette": true,
+                                "_createSubparentPerTool": true,
+                                "_createSubparentPerBrush": false,
+                                "_createSubparentPerPrefab": true,
+                                "_overwritePrefabLayer": false,
+                                "_layer": 0,
+                                "_overwriteBrushProperties": false,
+                                "_brushSettings": {
+                                    "_id": -1,
+                                    "_surfaceDistance": 0.0,
+                                    "_randomSurfaceDistance": false,
+                                    "_randomSurfaceDistanceRange": {
+                                        "_v1": -0.004999999888241291,
+                                        "_v2": 0.004999999888241291,
+                                        "_min": -0.004999999888241291,
+                                        "_max": 0.004999999888241291
+                                    },
+                                    "_embedInSurface": false,
+                                    "_embedAtPivotHeight": true,
+                                    "_localPositionOffset": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "_rotateToTheSurface": true,
+                                    "_eulerOffset": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "_addRandomRotation": false,
+                                    "_rotationFactor": 90.0,
+                                    "_rotateInMultiples": false,
+                                    "_randomEulerOffset": {
+                                        "x": {
+                                            "_v1": 0.0,
+                                            "_v2": 0.0,
+                                            "_min": 0.0,
+                                            "_max": 0.0
+                                        },
+                                        "y": {
+                                            "_v1": 0.0,
+                                            "_v2": 0.0,
+                                            "_min": 0.0,
+                                            "_max": 0.0
+                                        },
+                                        "z": {
+                                            "_v1": 0.0,
+                                            "_v2": 0.0,
+                                            "_min": 0.0,
+                                            "_max": 0.0
+                                        }
+                                    },
+                                    "_alwaysOrientUp": false,
+                                    "_separateScaleAxes": false,
+                                    "_scaleMultiplier": {
+                                        "x": 1.0,
+                                        "y": 1.0,
+                                        "z": 1.0
+                                    },
+                                    "_randomScaleMultiplier": false,
+                                    "_randomScaleMultiplierRange": {
+                                        "x": {
+                                            "_v1": 1.0,
+                                            "_v2": 1.0,
+                                            "_min": 1.0,
+                                            "_max": 1.0
+                                        },
+                                        "y": {
+                                            "_v1": 1.0,
+                                            "_v2": 1.0,
+                                            "_min": 1.0,
+                                            "_max": 1.0
+                                        },
+                                        "z": {
+                                            "_v1": 1.0,
+                                            "_v2": 1.0,
+                                            "_min": 1.0,
+                                            "_max": 1.0
+                                        }
+                                    },
+                                    "_flipX": 0,
+                                    "_flipY": 0,
+                                    "_thumbnailSettings": {
+                                        "_backgroudColor": {
+                                            "r": 0.5,
+                                            "g": 0.5,
+                                            "b": 0.5,
+                                            "a": 1.0
+                                        },
+                                        "_lightEuler": {
+                                            "x": 130.0,
+                                            "y": -165.0
+                                        },
+                                        "_lightColor": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        },
+                                        "_lightIntensity": 1.0,
+                                        "_zoom": 1.0,
+                                        "_targetEuler": {
+                                            "x": 0.0,
+                                            "y": 125.0,
+                                            "z": 0.0
+                                        },
+                                        "_targetOffset": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                        },
+                                        "_useCustomImage": false
+                                    }
+                                }
+                            }
+                        },
+                        "_state": 3,
+                        "_initialBrushId": 638650598580824140,
+                        "_closed": false
                     }
                 ]
             }
@@ -20307,7 +20741,8 @@
                     "EditorOnly",
                     "MainCamera",
                     "Player",
-                    "GameController"
+                    "GameController",
+                    "Interactable"
                 ]
             }
         ],
@@ -20999,7 +21434,7 @@
             "_origin": {
                 "x": 0.0,
                 "y": 0.125,
-                "z": 19.628143310546876
+                "z": -33.97747802734375
             },
             "_rotation": {
                 "x": 0.0,

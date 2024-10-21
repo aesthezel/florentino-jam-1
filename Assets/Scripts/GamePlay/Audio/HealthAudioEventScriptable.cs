@@ -1,4 +1,5 @@
 ﻿using FMODUnity;
+using Obvious.Soap.Example;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -9,22 +10,19 @@ namespace GamePlay.Audio
     {
         [field: SerializeField] public EventReference Reference { get; private set; }
         [field: SerializeField] public string Parameter { get; private set; }
-        public float HealthValue = 1000;
-        public float MaxHealthValue = 1000;
+        public PlayerHealth CurrentHealth;
 
         public float TestingHealthToSend = 10;
 
-        [Button("Test Health")]
-        public void TestHealth()
-        {
-            ChangeHealth(TestingHealthToSend);
-        }
+        // [Button("Test Health")]
+        // public void TestHealth()
+        // {
+        //     ChangeHealth(TestingHealthToSend);
+        // }
         
-        public void ChangeHealth(float value)
+        public void CheckHealth()
         {
-            HealthValue += value;
-            
-            var healthPercent = HealthValue / MaxHealthValue;
+            var healthPercent = CurrentHealth.Value / CurrentHealth.MaxHealth;
             var healthSoundValue = Mathf.Clamp(healthPercent, 0, 1);
             Play(healthSoundValue);
         }

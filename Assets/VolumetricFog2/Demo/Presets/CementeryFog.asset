@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CementeryFog
   m_EditorClassIdentifier: 
   raymarchQuality: 6
-  raymarchMinStep: 0.25
+  raymarchMinStep: 0.1
   jittering: 0.5
   dithering: 1
   renderQueue: 3100
@@ -31,11 +31,11 @@ MonoBehaviour:
   detailStrength: 0.653
   detailOffset: -0.5
   density: 1
-  shape: 0
+  shape: 1
   scaleNoiseWithHeight: 0.33
   border: 0.061
   customHeight: 1
-  height: 12.4
+  height: 12
   verticalOffset: 0
   distance: 0
   distanceFallOff: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
   terrainFogHeight: 25
   terrainFogMinAltitude: 0
   terrainFogMaxAltitude: 150
-  albedo: {r: 0.9215162, g: 0.8571061, b: 0.9496855, a: 0.98039216}
+  albedo: {r: 0.883695, g: 0.71848416, b: 0.9559748, a: 0.8}
   enableDepthGradient: 0
   depthGradient:
     serializedVersion: 2
@@ -118,7 +118,7 @@ MonoBehaviour:
   specularColor: {r: 0.99371064, g: 0.9189205, b: 0.6593488, a: 1}
   specularThreshold: 0.6
   specularIntensity: 0.5
-  turbulence: 0.3
+  turbulence: 1.5
   windDirection: {x: 0.005, y: 0, z: 0}
   useCustomDetailNoiseWindDirection: 0
   detailNoiseWindDirection: {x: 0.02, y: 0, z: 0}

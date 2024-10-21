@@ -5,8 +5,6 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [SerializeField] private float incrementEnemyTime = 10;
-
-    [SerializeField] private GameplayAudioEventScriptable gameSoundState;
     
     public static bool GameRunning;
     public static Action OnStartedGame;
@@ -17,7 +15,6 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-	    gameSoundState.Play(GameplaySoundStates.Menu);
         Debug.Log(gameObject.name);
     }
 

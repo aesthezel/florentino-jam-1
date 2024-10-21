@@ -49,8 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  damage: 10
+  damage: 15
   lifeTime: 20
+  teamIgnore: {fileID: 11400000, guid: 1d79a7662354193468faa350bf212eec, type: 2}
 --- !u!135 &-6148488408402043811
 SphereCollider:
   m_ObjectHideFlags: 0

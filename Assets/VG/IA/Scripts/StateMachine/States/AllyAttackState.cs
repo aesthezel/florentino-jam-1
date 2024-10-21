@@ -35,7 +35,7 @@ namespace VG.IA.StateMachine
 			{
 				iA.attackTime += Time.deltaTime;
 
-                if (iA.attackTime>=1)
+                if (iA.attackTime>=0.5f)
                 {
 					(iA as AllyIA)?.AttackEnemy();
 					iA.attackTime = 0;

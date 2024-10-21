@@ -1,9 +1,11 @@
-﻿using GamePlay.Player;
+﻿using GamePlay.Audio;
+using GamePlay.Player;
 using GamePlay.Player.SO;
 using GamePlay.Teams;
 using GamePlay.Weapons;
 using GamePlay.World;
 using Obvious.Soap;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using VG.IA;
 
@@ -17,6 +19,7 @@ namespace Gameplay.IA
 		public IAVision attackVision;
 		public Weapon enemyWeapon;
 		public float attackSpeed = 3;
+		[SerializeField] private float initialHealth;
 
 		[SerializeField] Health enemyHealth;
 		[SerializeField] PlayerPoints playerPoints;
@@ -29,7 +32,7 @@ namespace Gameplay.IA
 		private void OnEnable()
 		{
 			enemyHealth = SoapUtils.CreateRuntimeInstance<Health>();
-			enemyHealth.SetHealth(0, 20);
+			enemyHealth.SetHealth(0, initialHealth);
 
 			player.OnValueChanged += AddPlayer;
 		}
@@ -47,7 +50,14 @@ namespace Gameplay.IA
 		public override void Start()
 		{
 			base.Start();
-			destinationSetter.target = player.Value.transform;
+			if (player.Value == null)
+			{
+				StateMachine.ChangeState(PatrolPointState);
+			}
+			else
+			{
+				destinationSetter.target = player.Value.transform;
+			}
 		}
 
 		public override bool HaveAttackTarget()

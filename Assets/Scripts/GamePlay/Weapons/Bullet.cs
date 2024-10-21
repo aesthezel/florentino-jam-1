@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using GamePlay.Patterns;
+using GamePlay.Teams;
 using GamePlay.World;
 using UnityEngine;
 
@@ -14,6 +15,8 @@ namespace GamePlay.Weapons
         private float damage = 10f;
         [SerializeField] 
         private float lifeTime = 5f;
+        [SerializeField] 
+        private ScriptableEnumTeam teamIgnore;
 
         private FlexibleMonoBehaviorPool<Bullet> _parentPool;
         
@@ -32,6 +35,9 @@ namespace GamePlay.Weapons
         {
             Debug.Log($"{transform.name } collide with {other.name}");
             // Verificar si el objeto colisionado implementa IDamageable
+            ITeam team = other.GetComponent<ITeam>();
+            if (team?.Team == teamIgnore) return;
+            
             IDamageable damageable = other.GetComponent<IDamageable>();
             if (damageable != null)
             {

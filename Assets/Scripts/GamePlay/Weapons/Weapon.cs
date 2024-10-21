@@ -17,6 +17,9 @@ namespace GamePlay.Weapons
         [SerializeField] private Transform firePoint;
         [Title("SFX")] [SerializeField] private BulletHitEventScriptable bulletHitEvent;
         private float lastShoot;
+        
+        [Title("Sound")] 
+        [SerializeField] private SingleSoundEventScriptable enemyShoot;
 
         private FlexibleMonoBehaviorPool<Bullet> bulletPool;
         private FlexibleMonoBehaviorPool<BulletParticle> bulletParticlePool;
@@ -30,6 +33,7 @@ namespace GamePlay.Weapons
         public void Shoot()
         {
             if (Time.time - lastShoot < fireRate) return;
+            enemyShoot.Play();
             lastShoot = Time.time;
 
             var bullet = bulletPool.GetObject(firePoint.position, firePoint.rotation);

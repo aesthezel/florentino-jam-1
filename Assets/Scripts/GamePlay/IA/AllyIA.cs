@@ -32,7 +32,14 @@ namespace Gameplay.IA
 		{
 			base.Start();
 
-			destinationSetter.target = player.Value.transform;
+			if (player.Value == null)
+			{
+				StateMachine.ChangeState(PatrolPointState);
+			}
+			else
+			{
+				destinationSetter.target = player.Value.transform;
+			}
 		}
 
 		public override void MoveToPoint(Vector3 point)
@@ -43,7 +50,14 @@ namespace Gameplay.IA
 
 		public void MoveToPlayer()
 		{
-			destinationSetter.target = player.Value.transform;
+			if (player.Value == null)
+			{
+				StateMachine.ChangeState(PatrolPointState);
+			}
+			else
+			{
+				destinationSetter.target = player.Value.transform;
+			}
 		}
 
 		public void Damage(float value)

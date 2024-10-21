@@ -1,4 +1,5 @@
 using System;
+using GamePlay.Audio;
 using GamePlay.Patterns;
 using GamePlay.VFX;
 using UnityEngine;
@@ -19,6 +20,8 @@ namespace Gameplay.Controllers
 		private FlexibleMonoBehaviorPool<MovePointerParticle> _movePointerParticlePool;
 		
 		public Action<Vector3> OnMoveInput;
+
+		[SerializeField] private SingleSoundEventScriptable commandSound;
 
 		//Cache
 		Camera mainCamera;
@@ -51,6 +54,7 @@ namespace Gameplay.Controllers
 
                 OnMoveInput?.Invoke(hit.point);
 				_movePointerParticlePool.GetObject(hit.point);
+				commandSound.Play();
 			}
 		}
 	}

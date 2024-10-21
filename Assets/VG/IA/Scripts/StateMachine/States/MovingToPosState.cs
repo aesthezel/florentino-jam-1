@@ -23,8 +23,8 @@ namespace VG.IA.StateMachine
 		{
 			base.FrameUpdate();
 
-			//if (iA.HaveVisionTarget())
-			//	iA.StateMachine.ChangeState(iA.AttackState);
+			if (iA.HaveVisionTarget())
+				iA.StateMachine.ChangeState(iA.AllyAttackState);
 
 			if (iA.ReachedPoint())
 				iA.StateMachine.ChangeState(iA.FollowPlayerState);

@@ -1,55 +1,57 @@
 using System;
 using System.Collections;
 using UnityEngine;
-using VG.IA;
 
-public class AllyIASpawner : IAGenerator
+namespace VG.IA
 {
-	[SerializeField] private float cooldown = 10;
-
-	public Action OnActivateSpawner;
-	public Action OnDisableSpawner;
-	public Action OnSpawnIA;
-
-	private bool spawnerEnabled;
-
-    public override void Start()
-    {
-		OnDisableSpawner?.Invoke();
-
-		StartCoroutine(SpawnerCooldown());
-	}
-
-	public override void GenerateIA()
+	public class AllyIASpawner : IAGenerator
 	{
-		base.GenerateIA();
-	}
+		[SerializeField] private float cooldown = 10;
 
-	public void OnMouseDown()
-	{
-        if (spawnerEnabled)
-        {
-			for (int i = 0; i < spawnCount; i++)
+		public Action OnActivateSpawner;
+		public Action OnDisableSpawner;
+		public Action OnSpawnIA;
+
+		private bool spawnerEnabled;
+
+		public override void Start()
+		{
+			OnDisableSpawner?.Invoke();
+
+			StartCoroutine(SpawnerCooldown());
+		}
+
+		public override void GenerateIA()
+		{
+			base.GenerateIA();
+		}
+
+		public void OnMouseDown()
+		{
+			if (spawnerEnabled)
 			{
-				GenerateIA();
+				for (int i = 0; i < spawnCount; i++)
+				{
+					GenerateIA();
 
-				OnSpawnIA?.Invoke();
+					OnSpawnIA?.Invoke();
 
-				StartCoroutine(SpawnerCooldown());
+					StartCoroutine(SpawnerCooldown());
+				}
 			}
 		}
-	}
 
-	IEnumerator SpawnerCooldown() 
-	{
-		OnDisableSpawner?.Invoke();
+		IEnumerator SpawnerCooldown()
+		{
+			OnDisableSpawner?.Invoke();
 
-		spawnerEnabled = false;
+			spawnerEnabled = false;
 
-		yield return new WaitForSeconds(cooldown);
+			yield return new WaitForSeconds(cooldown);
 
-		OnActivateSpawner?.Invoke();
+			OnActivateSpawner?.Invoke();
 
-		spawnerEnabled = true;
+			spawnerEnabled = true;
+		}
 	}
 }

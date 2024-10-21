@@ -7,7 +7,7 @@ namespace Gameplay.HUD
 	{
 		[SerializeField] private Slider healthBar;
 
-		[SerializeField] private PlayerHealth playerHealth;
+		[SerializeField] private Health playerHealth;
 
 		void Start() 
 		{

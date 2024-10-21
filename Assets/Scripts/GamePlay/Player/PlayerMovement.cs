@@ -2,6 +2,7 @@ using Gameplay.Controllers;
 using Pathfinding;
 using UnityEngine;
 using VG.Inputs;
+using VG.LevelLoadManager;
 
 namespace Gameplay.Player
 {
@@ -31,7 +32,7 @@ namespace Gameplay.Player
 		{
 			moveInput = InputController.Instance.MoveInput;
 
-			UpdateMovement();
+            UpdateMovement();
 		}
 
 		private void UpdateMovement() 

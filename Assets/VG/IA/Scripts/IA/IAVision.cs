@@ -30,6 +30,8 @@ namespace VG.IA
 		Ray ray;
 		RaycastHit hit;
 
+		public bool debug;
+
 		public void UpdateVision()
 		{
 			targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, layerMasks);
@@ -44,12 +46,19 @@ namespace VG.IA
 					dstToTarget = Vector3.Distance(transform.position, target.position);
 					ray.origin = transform.position + new Vector3(0, elevationOffset, 0);
 					ray.direction = dirToTarget;
-
+					if (debug)
+					{
+						Debug.Log("!");
+					}
 					if (Physics.Raycast(ray, out hit, dstToTarget, layerMasks))
 					{
 						if(hit.collider.TryGetComponent<ITeam>(out var element))
 						{
-							if (targetsTeam.Exists(foundTeam => foundTeam.Name == element.Team.Name))
+                            if (debug)
+                            {
+								Debug.Log(hit.collider.gameObject.name);
+                            }
+                            if (targetsTeam.Exists(foundTeam => foundTeam.Name == element.Team.Name))
 							{
 								objetive = hit.collider.gameObject;
 								return;

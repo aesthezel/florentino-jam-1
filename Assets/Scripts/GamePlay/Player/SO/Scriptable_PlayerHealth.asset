@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f14ac764bb486264bad1e572c3b55689, type: 3}
+  m_Script: {fileID: 11500000, guid: 35a78ab713838af4fb8eb46396a41dfb, type: 3}
   m_Name: Scriptable_PlayerHealth
   m_EditorClassIdentifier: 
   TagIndex: 0
   Description: 
-  _guid: f61e3050bcdb7a14fb5efdf59d7360cd
+  _guid: c4d86f85ba038ba48ba2341efa8217ed
   _saveGuid: 0
-  _value: 100
+  _value: 0
   _debugLogEnabled: 0
   _saved: 0
   _defaultValue: 0

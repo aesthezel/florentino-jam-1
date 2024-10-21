@@ -12,16 +12,24 @@ public class PlayerIdentity : MonoBehaviour, ITeam, IDamageable
     private PlayerIdentityVariable playerIdentityVariable = null;
 
     [SerializeField]
-	PlayerHealth playerHealth;
+	Health playerHealth;
 
 
 	private void Awake()
     {
         playerIdentityVariable.Value = this;
-    }
+		playerHealth.SetHealth(0, 100);
+
+	}
 
 	public void Damage(float value)
 	{
 		playerHealth.ChangeHealth(-value);
-	}
+
+        if (playerHealth.Value <= 0)
+        {
+            GameController.EndGame();
+            Destroy(gameObject);
+        }
+    }
 }

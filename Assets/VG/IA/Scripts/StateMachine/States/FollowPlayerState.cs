@@ -32,7 +32,13 @@ namespace VG.IA.StateMachine
 		public override void FrameUpdate()
 		{
 			base.FrameUpdate();
-			(iA as AllyIA)?.MoveToPlayer();
+
+			if (iA.HaveVisionTarget())
+				iA.StateMachine.ChangeState(iA.AllyAttackState);
+            else
+            {
+				(iA as AllyIA)?.MoveToPlayer();
+			}
 		}
 
 		public override void PhysicUpdate()

@@ -1,7 +1,8 @@
 using System;
 using UnityEngine;
+using VG.IA;
 
-public class AllyIASpawnerFXs : MonoBehaviour
+public class IASpawnerFXs : MonoBehaviour
 {
 	[Header("FXs Particles")]
 	[SerializeField] private ParticleSystem activateParticles;

@@ -15,7 +15,6 @@ namespace VG.IA.StateMachine
 		{
 			iA.MoveToPoint(PatrolContainer.Instance.ChoosePatrolPoint().transform.position);
 			base.EnterState();
-			Debug.Log("Enter Patrol");
 		}
 
 		public override void ExitState()
@@ -26,7 +25,6 @@ namespace VG.IA.StateMachine
 		public override void FrameUpdate()
 		{
 			base.FrameUpdate();
-			Debug.Log("Patrol");
 			if (iA.HaveVisionTarget())
 				iA.StateMachine.ChangeState(iA.ChaseState);
 

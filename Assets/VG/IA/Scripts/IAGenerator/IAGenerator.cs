@@ -28,7 +28,7 @@ namespace VG.IA
 			SpawnIA(randomPos);
 		}
 
-		private Vector3 CalculateRandomPos()
+		public Vector3 CalculateRandomPos()
 		{
 			float randomX = Random.Range(-randomPosOffset, randomPosOffset);
 			float randomZ = Random.Range(-randomPosOffset, randomPosOffset);
@@ -37,14 +37,14 @@ namespace VG.IA
 			return spawnPoint.position + randomPosition;
 		}
 
-		private GameObject SpawnIA(Vector3 pos)
+		public GameObject SpawnIA(Vector3 pos)
 		{
 			GameObject spawnedIa = Instantiate(iaPrefab, pos, Quaternion.identity).gameObject;
 
 			return spawnedIa;
 		}
 
-		private GameObject SpawnIA(Vector3 pos, Quaternion rot)
+		public GameObject SpawnIA(Vector3 pos, Quaternion rot)
 		{
 			GameObject spawnedIa = Instantiate(iaPrefab, pos, rot).gameObject;
 

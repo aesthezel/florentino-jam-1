@@ -48,7 +48,7 @@ namespace VG.IA
 		public override void ChaseTarget()
 		{
 			if (iaVision.Objetive)
-				lastTargetSeenPos = iaVision.Objetive.transform.position;
+				destinationSetter.target = iaVision.Objetive.transform;
 		}
 
 		public override void MoveToHearPoint()

@@ -10,7 +10,7 @@ namespace GamePlay.Audio
     {
         [field: SerializeField] public EventReference Reference { get; private set; }
         [field: SerializeField] public string Parameter { get; private set; }
-        public PlayerHealth CurrentHealth;
+        public Health CurrentHealth;
 
         public float TestingHealthToSend = 10;
 

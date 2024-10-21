@@ -12,21 +12,23 @@ public class PlayerIdentity : MonoBehaviour, ITeam, IDamageable
     public ScriptableEnumTeam Team { get; private set; }
     [SerializeField]
     private PlayerIdentityVariable playerIdentityVariable = null;
-
-    [Title("Audios")] 
-    [SerializeField] private HealthAudioEventScriptable healthAudio;
-    [SerializeField] private SingleSoundEventScriptable hurtAudio;
+    
+    [Title("Audio")]
     [SerializeField] private SingleSoundEventScriptable footStepAudio;
+    [SerializeField] private SingleSoundEventScriptable hurtAudio;
+    [SerializeField] private HealthAudioEventScriptable healthAudio;
 
     [SerializeField]
-	private PlayerHealth playerHealth;
+	Health playerHealth;
 
 	private Vector3 lastPosition = Vector3.zero;
 
 	private void Awake()
     {
         playerIdentityVariable.Value = this;
-    }
+		playerHealth.SetHealth(0, 100);
+
+	}
 
 	private void Update()
 	{
@@ -43,7 +45,14 @@ public class PlayerIdentity : MonoBehaviour, ITeam, IDamageable
 	public void Damage(float value)
 	{
 		playerHealth.ChangeHealth(-value);
+
 		hurtAudio.Play();
 		healthAudio.CheckHealth();
+		
+        if (playerHealth.Value <= 0)
+        {
+            GameController.EndGame();
+            Destroy(gameObject);
+        }
 	}
 }

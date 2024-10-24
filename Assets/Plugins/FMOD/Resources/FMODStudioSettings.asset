@@ -362,16 +362,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
-  - fd7c55dab0fce234b8c25f6ffca523c1
   - 46fbfdf3fc43db0458918377fd40293e
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
   - 52eb9df5db46521439908db3a29a1bbb
-  - c88d16e5272a4e241b0ef0ac2e53b73d
   - b7716510a1f36934c87976f3a81dbf3d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - 0f8eb3f400726694eb47beb1a9f94ce8
   - de700ef3f37a49b58a57ae3addf01ad9
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - c88d16e5272a4e241b0ef0ac2e53b73d
   - e7a046c753c3c3d4aacc91f6597f310d
+  - 2c5177b11d81d824dbb064f9ac8527da
   codecChannels:
     Value: []
     HasValue: 0
@@ -399,7 +399,7 @@ MonoBehaviour:
   BankLoadType: 0
   AutomaticSampleLoading: 0
   EncryptionKey: 
-  ImportType: 1
+  ImportType: 0
   TargetAssetPath: FMODBanks
   TargetBankFolder: 
   EventLinkage: 0
@@ -413,7 +413,7 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Desktop/Master
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
@@ -430,18 +430,18 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131620
   Platforms:
-  - {fileID: -8156020951251926028}
-  - {fileID: -6787781415814665790}
-  - {fileID: -5213079447134307493}
-  - {fileID: -4562829281658969917}
-  - {fileID: -3600672279646405348}
-  - {fileID: 2270080309935001170}
-  - {fileID: 4887588849620241462}
-  - {fileID: 5319471556762115810}
-  - {fileID: 5447538794937328204}
-  - {fileID: 6736084560216709547}
-  - {fileID: 6938995901198528357}
   - {fileID: 9020359030270224196}
+  - {fileID: -3600672279646405348}
+  - {fileID: -5213079447134307493}
+  - {fileID: -8156020951251926028}
+  - {fileID: -4562829281658969917}
+  - {fileID: 4887588849620241462}
+  - {fileID: 6736084560216709547}
+  - {fileID: 5447538794937328204}
+  - {fileID: -6787781415814665790}
+  - {fileID: 2270080309935001170}
+  - {fileID: 6938995901198528357}
+  - {fileID: 5319471556762115810}
   MigratedPlatforms: 080000001200000006000000050000000b000000000000000a000000090000000c000000150000000200000001000000
 --- !u!114 &2270080309935001170
 MonoBehaviour:

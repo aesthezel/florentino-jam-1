@@ -28,8 +28,6 @@ namespace VG.IA.StateMachine
 
 		public override void FrameUpdate()
 		{
-			Debug.Log("CHASE STATE");
-			
 			base.FrameUpdate();
 			
 			if (iA.HaveVisionTarget())
@@ -40,8 +38,6 @@ namespace VG.IA.StateMachine
 				Debug.Log("Consiguio objetivo");
 				iA.StateMachine.ChangeState(iA.AttackState);
 			}
-
-				
 			else 
 			{
 				iA.MoveToLastSeenPoint();

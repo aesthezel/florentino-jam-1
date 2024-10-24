@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Gameplay.IA;
+using UnityEngine;
 
 namespace VG.IA.StateMachine
 {
@@ -22,7 +23,10 @@ namespace VG.IA.StateMachine
             
             if (iA.HaveAttackTarget())
             {
-                Debug.Log("Disparando");
+                var objective = (iA as EnemyAI)?.attackVision.Objetive.transform;
+                (iA as EnemyAI)?.TryShoot();
+                if (objective == null) return;
+                (iA as EnemyAI)?.RotateToTarget(objective);
             }
             else
             {

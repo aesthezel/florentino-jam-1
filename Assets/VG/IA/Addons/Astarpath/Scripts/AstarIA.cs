@@ -1,6 +1,7 @@
 using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 namespace VG.IA
@@ -9,6 +10,8 @@ namespace VG.IA
 	{
 		protected AIDestinationSetter destinationSetter;
 		protected AIPath aiPath;
+
+		private Vector2 movePosPoint;
 
 		public override void Awake()
 		{
@@ -45,7 +48,7 @@ namespace VG.IA
 		public override void ChaseTarget()
 		{
 			if (iaVision.Objetive)
-				lastTargetSeenPos = iaVision.Objetive.transform.position;
+				destinationSetter.target = iaVision.Objetive.transform;
 		}
 
 		public override void MoveToHearPoint()
@@ -56,11 +59,12 @@ namespace VG.IA
 		public override void MoveToPoint(Vector3 point)
 		{
 			aiPath.destination = point;
+
+			movePosPoint = point;
 		}
 
 		public override void MoveToLastSeenPoint()
 		{
-			Debug.Log("Move to last seen point");
 			aiPath.destination = lastTargetSeenPos;
 		}
 

@@ -2,12 +2,12 @@ using Gameplay.Controllers;
 using Pathfinding;
 using UnityEngine;
 using VG.Inputs;
+using VG.LevelLoadManager;
 
 namespace Gameplay.Player
 {
 	public class PlayerMovement : MonoBehaviour
-	{
-		
+	{		
 		[Header("Speed settings")]
 		[SerializeField] private float playerSpeed = 5.0f;
 		[SerializeField] private float gravityValue = -9.81f;
@@ -32,7 +32,7 @@ namespace Gameplay.Player
 		{
 			moveInput = InputController.Instance.MoveInput;
 
-			UpdateMovement();
+            UpdateMovement();
 		}
 
 		private void UpdateMovement() 

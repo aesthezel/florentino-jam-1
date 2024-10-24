@@ -1,4 +1,7 @@
 using System;
+using GamePlay.Audio;
+using GamePlay.Patterns;
+using GamePlay.VFX;
 using UnityEngine;
 using VG.Inputs;
 
@@ -11,7 +14,14 @@ namespace Gameplay.Controllers
 		[Header("Move layer")]
 		[SerializeField] LayerMask moveLayer;
 
+		[SerializeField]
+		private MovePointerParticle movePointerParticlePrefab;
+		
+		private FlexibleMonoBehaviorPool<MovePointerParticle> _movePointerParticlePool;
+		
 		public Action<Vector3> OnMoveInput;
+
+		[SerializeField] private SingleSoundEventScriptable commandSound;
 
 		//Cache
 		Camera mainCamera;
@@ -29,21 +39,23 @@ namespace Gameplay.Controllers
 
 		private void Start()
 		{
-			InputController.Instance.Fire0Pressed += UpdateMoveInput;
-		}
-
-		private void UpdateMoveInput() 
-		{
-			if (Input.GetButtonDown("Fire1"))
-				CastMoveInput();
+			InputController.Instance.Fire0Pressed += CastMoveInput;
+			_movePointerParticlePool = new FlexibleMonoBehaviorPool<MovePointerParticle>(movePointerParticlePrefab, 1, 100);
 		}
 
 		private void CastMoveInput() 
 		{
 			ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out hit, 100, moveLayer))
-				OnMoveInput?.Invoke(hit.point);
+			if (Physics.Raycast(ray, out hit, 100, moveLayer))
+			{
+				if (hit.collider.gameObject.tag == "Interactable")
+					return;
+
+                OnMoveInput?.Invoke(hit.point);
+				_movePointerParticlePool.GetObject(hit.point);
+				commandSound.Play();
+			}
 		}
 	}
 }

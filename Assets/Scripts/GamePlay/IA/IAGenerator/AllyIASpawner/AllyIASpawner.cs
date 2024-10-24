@@ -1,20 +1,66 @@
+using System;
+using System.Collections;
+using GamePlay.Audio;
 using UnityEngine;
-using VG.IA;
+using Random = UnityEngine.Random;
 
-public class AllyIASpawner : IAGenerator
+namespace VG.IA
 {
-    public override void Start()
-    {
-        
-    }
-
-	public override void GenerateIA()
+	public class AllyIASpawner : IAGenerator
 	{
-		base.GenerateIA();
-	}
+		[SerializeField] private float minCooldown = 1;
+		[SerializeField] private float maxCooldown = 10;
 
-	public void OnMouseDown()
-	{
-		GenerateIA();
+		public Action OnActivateSpawner;
+		public Action OnDisableSpawner;
+		public Action OnSpawnIA;
+
+		private bool spawnerEnabled;
+
+		[SerializeField] private SingleSoundEventScriptable spawnSound;
+		[SerializeField] private SingleSoundEventScriptable cantSpawnSound;
+
+		public override void Start()
+		{
+			OnDisableSpawner?.Invoke();
+
+			StartCoroutine(SpawnerCooldown());
+		}
+
+		public override void GenerateIA()
+		{
+			base.GenerateIA();
+		}
+
+		public void OnMouseDown()
+		{
+			if (spawnerEnabled)
+			{
+				spawnSound.Play();
+				for (int i = 0; i < spawnCount; i++)
+				{
+					GenerateIA();
+					OnSpawnIA?.Invoke();
+					StartCoroutine(SpawnerCooldown());
+				}
+			}
+			else
+			{
+				cantSpawnSound.Play();
+			}
+		}
+
+		IEnumerator SpawnerCooldown()
+		{
+			OnDisableSpawner?.Invoke();
+
+			spawnerEnabled = false;
+
+			yield return new WaitForSeconds(Random.Range(minCooldown, maxCooldown));
+
+			OnActivateSpawner?.Invoke();
+
+			spawnerEnabled = true;
+		}
 	}
 }

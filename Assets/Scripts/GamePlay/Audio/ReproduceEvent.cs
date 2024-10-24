@@ -1,57 +1,72 @@
 ﻿using System.Collections.Generic;
 using FMOD.Studio;
 using FMODUnity;
-using UnityEngine;
 using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 namespace GamePlay.Audio
 {
     public static class ReproduceEvent
     {
-        private static readonly Dictionary<EventReference, List<EventInstance>> EventsInstantiated = new();
+        private static readonly Dictionary<EventReference, EventInstance> EventsInstantiated = new();
 
-        public static void Play(EventReference reference, string parameter, int value)
+        public static void Play(EventReference reference, float volume = 1.0f)
         {
-            var instancedReference = RuntimeManager.CreateInstance(reference.Guid);
-            instancedReference.setParameterByName(parameter, value);
-            //instancedReference.set3DAttributes(model.To3DAttributes());
-            instancedReference.start();
-
-            if (EventsInstantiated.TryGetValue(reference, out var instances))
+            if (EventsInstantiated.TryGetValue(reference, out var instance))
             {
-                instances.Add(instancedReference); 
+                instance.stop(STOP_MODE.IMMEDIATE);
+                instance.start();
+                instance.setVolume(volume);
             }
             else
             {
-                EventsInstantiated.Add(reference, new List<EventInstance> { instancedReference });
+                var instancedReference = RuntimeManager.CreateInstance(reference.Guid);
+                EventsInstantiated.Add(reference, instancedReference);
+                instancedReference.setVolume(volume);
+                instancedReference.start();
+            }
+        }
+        
+        public static void Play(EventReference reference, string parameter, int value)
+        {
+            if (EventsInstantiated.TryGetValue(reference, out var instance)) // SI YA EXISTE
+            {
+                // YA ESTA EN PLAY
+                instance.setParameterByName(parameter, value); // CAMBIO DE PARAMETROS
+                //instancedReference.start();
+            }
+            else
+            {
+                // SE CREA UNO NUEVO
+                var instancedReference = RuntimeManager.CreateInstance(reference.Guid);
+                instancedReference.setParameterByName(parameter, value);
+                EventsInstantiated.Add(reference, instancedReference);
+                instancedReference.start();
             }
         }
         
         public static void Play(EventReference reference, string parameter, float value)
         {
-            var instancedReference = RuntimeManager.CreateInstance(reference.Guid);
-            instancedReference.setParameterByName(parameter, value);
-            //instancedReference.set3DAttributes(model.To3DAttributes());
-            instancedReference.start();
-
-            if (EventsInstantiated.TryGetValue(reference, out var instances))
+            if (EventsInstantiated.TryGetValue(reference, out var instance)) // SI YA EXISTE
             {
-                instances.Add(instancedReference); 
+                // YA ESTA EN PLAY
+                instance.setParameterByName(parameter, value); // CAMBIO DE PARAMETROS
+                //instancedReference.start();
             }
             else
             {
-                EventsInstantiated.Add(reference, new List<EventInstance> { instancedReference });
+                // SE CREA UNO NUEVO
+                var instancedReference = RuntimeManager.CreateInstance(reference.Guid);
+                instancedReference.setParameterByName(parameter, value);
+                EventsInstantiated.Add(reference, instancedReference);
+                instancedReference.start();
             }
         }
 
         public static void Stop(EventReference reference, STOP_MODE mode)
         {
-            if (!EventsInstantiated.TryGetValue(reference, out var instances)) return;
-            foreach (var instance in instances)
-            {
-                instance.stop(mode);
-                instance.release();
-            }
+            if (!EventsInstantiated.TryGetValue(reference, out var instance)) return;
+            instance.stop(mode);
+            instance.release();
         }
     }
 }

@@ -1,0 +1,2552 @@
+{
+    "_version": "4.2",
+    "_name": "Palette",
+    "_id": -8584721300740962077,
+    "_brushes": [
+        {
+            "_id": 638650593619824269,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 20.0,
+                "y": 30.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": false,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": false,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "y": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "z": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            },
+            "_name": "pillar-obelisk",
+            "_items": [
+                {
+                    "_id": 638650593987228120,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "0924e79efa2f62e41b9d9f975abc109e",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pillar-small.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650593619824269,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650593619824270,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "44394748d9e3f204dafd18e48894c480",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pillar-obelisk.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650593619824269,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                }
+            ],
+            "_frequencyMode": 0,
+            "_pattern": "1...",
+            "_restartPatternForEachStroke": true
+        },
+        {
+            "_id": 638650594849148233,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": true,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 20.0,
+                    "_v2": 10.0,
+                    "_min": 10.0,
+                    "_max": 20.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": true,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 0.20000000298023225,
+                    "_v2": 1.0,
+                    "_min": 0.20000000298023225,
+                    "_max": 1.0
+                },
+                "y": {
+                    "_v1": 0.20000000298023225,
+                    "_v2": 1.0,
+                    "_min": 0.20000000298023225,
+                    "_max": 1.0
+                },
+                "z": {
+                    "_v1": 0.20000000298023225,
+                    "_v2": 1.0,
+                    "_min": 0.20000000298023225,
+                    "_max": 1.0
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            },
+            "_name": "pumpkin",
+            "_items": [
+                {
+                    "_id": 638650594849148234,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "148fac29c56173e4188103d3dede25c3",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pumpkin.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650594849148233,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650594912058377,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "e53c5f7e9e914b8469496ccbc5215fb5",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pumpkin-tall.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650594849148233,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650594897360312,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "27c1b51fc0ad4e04dbaad0cf25753b7e",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pumpkin-carved.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650594849148233,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650594927281197,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "fcd82c97716a39a439629f59e70258cd",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pumpkin-tall-carved.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650594849148233,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                }
+            ],
+            "_frequencyMode": 0,
+            "_pattern": "1...",
+            "_restartPatternForEachStroke": true
+        },
+        {
+            "_id": 638650596710864127,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": true,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 0.0,
+                    "_v2": 359.0,
+                    "_min": 0.0,
+                    "_max": 359.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": true,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 0.699999988079071,
+                    "_v2": 1.2000000476837159,
+                    "_min": 0.699999988079071,
+                    "_max": 1.2000000476837159
+                },
+                "y": {
+                    "_v1": 0.699999988079071,
+                    "_v2": 1.2000000476837159,
+                    "_min": 0.699999988079071,
+                    "_max": 1.2000000476837159
+                },
+                "z": {
+                    "_v1": 0.699999988079071,
+                    "_v2": 1.2000000476837159,
+                    "_min": 0.699999988079071,
+                    "_max": 1.2000000476837159
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            },
+            "_name": "pine-crooked",
+            "_items": [
+                {
+                    "_id": 638650596710864128,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "bc7793d95ff46f342a187496c3d444ae",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pine-crooked.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650596710864127,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650596737728153,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "8a4a64ea792e8ae4d848ab2f6866dbe0",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pine.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650596710864127,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650596780434963,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "9b0f6fad37132e6449efbd631118bb3e",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pine-fall.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650596710864127,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650596759257059,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "023537d5738e0c147b5a180e13ee57b7",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/pine-fall-crooked.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650596710864127,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                }
+            ],
+            "_frequencyMode": 0,
+            "_pattern": "1...",
+            "_restartPatternForEachStroke": true
+        },
+        {
+            "_id": 638650597231614522,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": true,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 0.0,
+                    "_v2": 359.0,
+                    "_min": 0.0,
+                    "_max": 359.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": false,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "y": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "z": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            },
+            "_name": "debris",
+            "_items": [
+                {
+                    "_id": 638650597231614523,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "23dce50517e9d724f8aff3b37b5f52cf",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/debris.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650597231614522,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                }
+            ],
+            "_frequencyMode": 0,
+            "_pattern": "1...",
+            "_restartPatternForEachStroke": true
+        },
+        {
+            "_id": 638650597460216532,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": true,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 0.0,
+                    "_v2": 359.0,
+                    "_min": 0.0,
+                    "_max": 359.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": false,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "y": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "z": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            },
+            "_name": "shovel",
+            "_items": [
+                {
+                    "_id": 638650597460216533,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "2ee70da7aaf06524293879f7c4be43a7",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/shovel.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650597460216532,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                }
+            ],
+            "_frequencyMode": 0,
+            "_pattern": "1...",
+            "_restartPatternForEachStroke": true
+        },
+        {
+            "_id": 638650598580824140,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": false,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": false,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "y": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "z": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            },
+            "_name": "fence",
+            "_items": [
+                {
+                    "_id": 638650599036970985,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "891d17c398b2c3840ae78f0db5b3d5dd",
+                    "_prefabPath": "Assets/_Game/Media/Prefabs/fence.prefab",
+                    "_frequency": 1.0,
+                    "_parentId": 638650598580824140,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650599036970986,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "fe24e7c49481bdd46b95e7183a81562c",
+                    "_prefabPath": "",
+                    "_frequency": 1.0,
+                    "_parentId": 638650598580824140,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                },
+                {
+                    "_id": 638650599036970987,
+                    "_surfaceDistance": 0.0,
+                    "_randomSurfaceDistance": false,
+                    "_randomSurfaceDistanceRange": {
+                        "_v1": -0.004999999888241291,
+                        "_v2": 0.004999999888241291,
+                        "_min": -0.004999999888241291,
+                        "_max": 0.004999999888241291
+                    },
+                    "_embedInSurface": false,
+                    "_embedAtPivotHeight": true,
+                    "_localPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_rotateToTheSurface": true,
+                    "_eulerOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "_addRandomRotation": false,
+                    "_rotationFactor": 90.0,
+                    "_rotateInMultiples": false,
+                    "_randomEulerOffset": {
+                        "x": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "y": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        },
+                        "z": {
+                            "_v1": 0.0,
+                            "_v2": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    },
+                    "_alwaysOrientUp": false,
+                    "_separateScaleAxes": false,
+                    "_scaleMultiplier": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "_randomScaleMultiplier": false,
+                    "_randomScaleMultiplierRange": {
+                        "x": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "y": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        },
+                        "z": {
+                            "_v1": 1.0,
+                            "_v2": 1.0,
+                            "_min": 1.0,
+                            "_max": 1.0
+                        }
+                    },
+                    "_flipX": 0,
+                    "_flipY": 0,
+                    "_thumbnailSettings": {
+                        "_backgroudColor": {
+                            "r": 0.5,
+                            "g": 0.5,
+                            "b": 0.5,
+                            "a": 1.0
+                        },
+                        "_lightEuler": {
+                            "x": 130.0,
+                            "y": -165.0
+                        },
+                        "_lightColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "_lightIntensity": 1.0,
+                        "_zoom": 1.0,
+                        "_targetEuler": {
+                            "x": 0.0,
+                            "y": 125.0,
+                            "z": 0.0
+                        },
+                        "_targetOffset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "_useCustomImage": false
+                    },
+                    "_overwriteSettings": false,
+                    "_guid": "7b48ba0a44da55a439c9382a61d2b03d",
+                    "_prefabPath": "",
+                    "_frequency": 1.0,
+                    "_parentId": 638650598580824140,
+                    "_overwriteThumbnailSettings": false,
+                    "_includeInThumbnail": true,
+                    "_isAsset2D": false
+                }
+            ],
+            "_frequencyMode": 0,
+            "_pattern": "1...",
+            "_restartPatternForEachStroke": true
+        }
+    ],
+    "_brushCreationSettings": {
+        "_includeSubfolders": true,
+        "_addLabelsToDroppedPrefabs": false,
+        "_labelsCSV": "",
+        "_defaultBrushSettings": {
+            "_id": -1,
+            "_surfaceDistance": 0.0,
+            "_randomSurfaceDistance": false,
+            "_randomSurfaceDistanceRange": {
+                "_v1": -0.004999999888241291,
+                "_v2": 0.004999999888241291,
+                "_min": -0.004999999888241291,
+                "_max": 0.004999999888241291
+            },
+            "_embedInSurface": false,
+            "_embedAtPivotHeight": true,
+            "_localPositionOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_rotateToTheSurface": true,
+            "_eulerOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_addRandomRotation": false,
+            "_rotationFactor": 90.0,
+            "_rotateInMultiples": false,
+            "_randomEulerOffset": {
+                "x": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "y": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                },
+                "z": {
+                    "_v1": 0.0,
+                    "_v2": 0.0,
+                    "_min": 0.0,
+                    "_max": 0.0
+                }
+            },
+            "_alwaysOrientUp": false,
+            "_separateScaleAxes": false,
+            "_scaleMultiplier": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "_randomScaleMultiplier": false,
+            "_randomScaleMultiplierRange": {
+                "x": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "y": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                },
+                "z": {
+                    "_v1": 1.0,
+                    "_v2": 1.0,
+                    "_min": 1.0,
+                    "_max": 1.0
+                }
+            },
+            "_flipX": 0,
+            "_flipY": 0,
+            "_thumbnailSettings": {
+                "_backgroudColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5,
+                    "a": 1.0
+                },
+                "_lightEuler": {
+                    "x": 130.0,
+                    "y": -165.0
+                },
+                "_lightColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "_lightIntensity": 1.0,
+                "_zoom": 1.0,
+                "_targetEuler": {
+                    "x": 0.0,
+                    "y": 125.0,
+                    "z": 0.0
+                },
+                "_targetOffset": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "_useCustomImage": false
+            }
+        },
+        "_defaultThumbnailSettings": {
+            "_backgroudColor": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "_lightEuler": {
+                "x": 130.0,
+                "y": -165.0
+            },
+            "_lightColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "_lightIntensity": 1.0,
+            "_zoom": 1.0,
+            "_targetEuler": {
+                "x": 0.0,
+                "y": 125.0,
+                "z": 0.0
+            },
+            "_targetOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "_useCustomImage": false
+        }
+    }
+}

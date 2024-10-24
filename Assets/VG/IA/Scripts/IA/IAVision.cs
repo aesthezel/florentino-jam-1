@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using GamePlay.Teams;
 using UnityEngine;
 
 namespace VG.IA
@@ -10,8 +11,9 @@ namespace VG.IA
 		[SerializeField] float viewRadius = 10f;
 		[Range(0, 360)][SerializeField] float viewAngle = 90f;
 		[SerializeField] LayerMask layerMasks;
-		[SerializeField] string targetTag = "Player";
+		[SerializeField] List<ScriptableEnumTeam> targetsTeam = new();
 		[SerializeField] Collider[] targetsInViewRadius;
+		[SerializeField] float elevationOffset = 1.0f;
 
 		[Header("Current Objetive")]
 		[SerializeField] private GameObject objetive;
@@ -28,6 +30,8 @@ namespace VG.IA
 		Ray ray;
 		RaycastHit hit;
 
+		public bool debug;
+
 		public void UpdateVision()
 		{
 			targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, layerMasks);
@@ -40,18 +44,32 @@ namespace VG.IA
 				if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
 				{
 					dstToTarget = Vector3.Distance(transform.position, target.position);
-
-					ray.origin = transform.position;
+					ray.origin = transform.position + new Vector3(0, elevationOffset, 0);
 					ray.direction = dirToTarget;
-
+					if (debug)
+					{
+						Debug.Log("!");
+					}
 					if (Physics.Raycast(ray, out hit, dstToTarget, layerMasks))
 					{
-						if (hit.collider.gameObject.tag == targetTag)
+						if(hit.collider.TryGetComponent<ITeam>(out var element))
 						{
-							objetive = hit.collider.gameObject;
-
-							return;
+                            if (debug)
+                            {
+								Debug.Log(hit.collider.gameObject.name);
+                            }
+                            if (targetsTeam.Exists(foundTeam => foundTeam.Name == element.Team.Name))
+							{
+								objetive = hit.collider.gameObject;
+								return;
+							}
 						}
+						
+						// if (hit.collider.gameObject.tag == targetTag)
+						// {
+						// 	objetive = hit.collider.gameObject;
+						// 	return;
+						// }
 					}
 				}
 			}
